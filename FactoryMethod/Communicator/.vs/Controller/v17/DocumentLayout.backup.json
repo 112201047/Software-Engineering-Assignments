@@ -1,0 +1,162 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{625F002B-CF28-41AE-88F4-49E51163DA1A}|Controller\\Controller.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{625F002B-CF28-41AE-88F4-49E51163DA1A}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\communicator\\udpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|solutionrelative:communicator\\udpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\communicator\\protocolcommunicatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|solutionrelative:communicator\\protocolcommunicatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\communicator\\rpccommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|solutionrelative:communicator\\rpccommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\communicator\\tcpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|solutionrelative:communicator\\tcpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|c:\\users\\soory\\documents\\iitpkd\\semester 7\\swe\\oopprinciplesdemo\\oopprinciplesdemo.v2\\communicator\\communicator\\icommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E261ABCF-20C0-4AA1-AC25-7EED50530CFB}|Communicator\\Communicator.csproj|solutionrelative:communicator\\icommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProtocolCommunicatorBase.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\ProtocolCommunicatorBase.cs",
+              "RelativeDocumentMoniker": "Communicator\\ProtocolCommunicatorBase.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\ProtocolCommunicatorBase.cs",
+              "RelativeToolTip": "Communicator\\ProtocolCommunicatorBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:47:42.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UdpCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\UdpCommunicator.cs",
+              "RelativeDocumentMoniker": "Communicator\\UdpCommunicator.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\UdpCommunicator.cs",
+              "RelativeToolTip": "Communicator\\UdpCommunicator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:47:16.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Controller\\Program.cs",
+              "RelativeDocumentMoniker": "Controller\\Program.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Controller\\Program.cs*",
+              "RelativeToolTip": "Controller\\Program.cs*",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:36:26.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RpcCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\RpcCommunicator.cs",
+              "RelativeDocumentMoniker": "Communicator\\RpcCommunicator.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\RpcCommunicator.cs",
+              "RelativeToolTip": "Communicator\\RpcCommunicator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T08:09:35.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\ICommunicator.cs",
+              "RelativeDocumentMoniker": "Communicator\\ICommunicator.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\ICommunicator.cs",
+              "RelativeToolTip": "Communicator\\ICommunicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:35:22.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TcpCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\TcpCommunicator.cs",
+              "RelativeDocumentMoniker": "Communicator\\TcpCommunicator.cs",
+              "ToolTip": "C:\\Users\\soory\\Documents\\IITPkd\\Semester 7\\SWE\\OopPrinciplesDemo\\OopPrinciplesDemo.v2\\Communicator\\Communicator\\TcpCommunicator.cs",
+              "RelativeToolTip": "Communicator\\TcpCommunicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T17:30:59.36Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
