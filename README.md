@@ -15,5 +15,5 @@ This repository incorporates and builds upon work from the following sources:
 - [OopPrinciplesDemo](./OopPrinciplesDemo)  
   Extends the skeleton code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur), adding a new class `AwesomeAntivirusSecurityProvider` that inherits from `AntivirusSecurityProvider`.  
 
-- [ChainOfResponsibility](./ChainOfResponsibility)
+- [ChainOfResponsibility](./ChainOfResponsibility)   
   Modifies the java code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to implement the design pattern **Chain of Responsibility**
