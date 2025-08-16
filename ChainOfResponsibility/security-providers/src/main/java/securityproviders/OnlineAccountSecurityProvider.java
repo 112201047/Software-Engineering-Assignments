@@ -12,7 +12,7 @@ public class OnlineAccountSecurityProvider extends AccountSecurityProvider imple
         // Simulate an online account security scan
         System.out.println("Scanning online account security...");
 
-        return true; // Combine results
+        return true;
     }
 
     @Override
