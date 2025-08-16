@@ -9,7 +9,7 @@ The program defines:
 - **`TcpCommunicator`** – Simulated implementation using TCP protocol.  
 - **`UdpCommunicator`** – Simulated implementation using UDP protocol.  
 - **`RemoteProcedureCallCommunicator`** – Simulated implementation for RPC communication.  
-- **`Controller`** – Uses the communicators to perform operations.  
+- **`Program`** – Uses the communicators to perform operations.  
 
 ## Class Diagram
 Below is the class diagram representing the relationships among the classes:
