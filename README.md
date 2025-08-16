@@ -15,5 +15,5 @@ This repository incorporates and builds upon work from the following sources:
 - [OopPrinciplesDemo](./OopPrinciplesDemo)  
   Extends the skeleton code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur), adding a new class `AwesomeAntivirusSecurityProvider` that inherits from `AntivirusSecurityProvider`.  
 
-- [FactoryMethod](./FactoryMethod)  
-  Extends the repository [Sn-G-m/Object-Oriented-Programming-Demo](https://github.com/Sn-G-m/Object-Oriented-Programming-Demo) by implementing the **Factory Method** design pattern.  
+- [ChainOfResponsibility](./ChainOfResponsibility)
+  Modifies the java code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to implement the design pattern **Chain of Responsibility**
