@@ -1,0 +1,5 @@
+securityproviders\OnlineAccountSecurityProvider.class
+securityproviders\DeviceSecurity.class
+securityproviders\ISecurityProvider.class
+securityproviders\AccountSecurityProvider.class
+securityproviders\AntivirusSecurityProvider.class

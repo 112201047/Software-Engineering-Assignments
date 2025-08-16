@@ -1,16 +1,12 @@
-# Object Oriented Programming Demo
+# Object Oriented Programming Project
 
-## Directory Structure
+This project implements the program discussed in class, which demonstrates **object-oriented design** with multiple communicator classes and a controller module.
 
-- The *Security* folder contains the code implementing various security providers.
-- The *Communicators* folder contains the code simulating various communication providers.
-- The *Diagram* folder includes class dependencies for each of the setup (Security and Communicators).
+## Description
+The program extends the repository [112201047/OOPAssignment](https://github.com/112201047/Software-Engineering-Assignments/tree/main/OOPAssignment) to add the Factory Method (design pattern):
+- **`CommunicatorFactory`** – Implements factory method for communication. 
 
-## Class Diagrams
+## Class Diagram
+Below is the class diagram representing the relationships among the classes:
 
-### Communicator
-![Security-class-diagram](Diagrams/Communicator.png)
-
-
-### Security
-![Security-class-diagram](Diagrams/SecurityProvider.png)
+![Class Diagram](./Class%20Diagram.jpg)
