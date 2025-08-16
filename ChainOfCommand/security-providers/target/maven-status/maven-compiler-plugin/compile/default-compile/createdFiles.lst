@@ -1,4 +1,5 @@
 securityproviders\OnlineAccountSecurityProvider.class
+securityproviders\CompleteSecurity.class
 securityproviders\DeviceSecurity.class
 securityproviders\ISecurityProvider.class
 securityproviders\AccountSecurityProvider.class
