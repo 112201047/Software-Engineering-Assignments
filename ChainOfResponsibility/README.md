@@ -1,7 +1,6 @@
-# OOP Principles Demo — Java Port
+# Chain of Responsibility
 
-This is a 1:1 Java port of the .NET solution in `.NET/`, using a Maven multi-module layout.
-
+This project contains the implementation of the design pattern **Chain of Responsibility**.
 - Modules:
   - `security-providers` (library with providers)
   - `controller` (console app)
@@ -31,22 +30,26 @@ java -jar controller/target/controller-1.0-SNAPSHOT-shaded.jar
 
 ## Expected output (sample)
 ```
+Initializing complete security...
 Using Device Security Provider
-Scanning device security...
-Device Security Provider scan completed successfully.
-
+Initializing device security...
+Using Antivirus Security Provider
+Initializing antivirus security...
+Using Account Security Provider
+Initializing account security...
 Using Online Account Security Provider
 Scanning online account security...
-Scanning account security...
 Online Account Security Provider scan completed successfully.
 
-Using Account Security Provider
-Scanning account security...
 Account Security Provider scan completed successfully.
 
-Using Antivirus Security Provider
-Scanning for viruses...
 Antivirus Security Provider scan completed successfully.
+
+Device Security Provider scan completed successfully.
+
+Complete Security Provider scan completed successfully.
+
+COMPREHENSIVE SCAN COMPLETED. YOUR DEVICE IS SECURE FROM ALL THREATS.
 ```
 
 Tip: If Maven reports cached plugin resolution errors, retry with:
