@@ -14,4 +14,4 @@ The program defines:
 ## Class Diagram
 Below is the class diagram representing the relationships among the classes:
 
-![Class Diagram](./class_diagram.png)
+![Class Diagram](./Class%20Diagram.jpg)
