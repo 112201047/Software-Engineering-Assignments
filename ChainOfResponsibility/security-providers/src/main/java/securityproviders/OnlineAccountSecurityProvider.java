@@ -11,11 +11,8 @@ public class OnlineAccountSecurityProvider extends AccountSecurityProvider imple
 
         // Simulate an online account security scan
         System.out.println("Scanning online account security...");
-        boolean scanResult = true; // Assume the scan is successful
 
-        // Call the base class scan method.
-        boolean baseScanResult = super.scan();
-        return baseScanResult && scanResult; // Combine results
+        return true; // Combine results
     }
 
     @Override
