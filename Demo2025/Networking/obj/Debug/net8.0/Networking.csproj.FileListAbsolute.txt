@@ -1,0 +1,11 @@
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\bin\Debug\net8.0\Networking.deps.json
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\bin\Debug\net8.0\Networking.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\bin\Debug\net8.0\Networking.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.AssemblyInfoInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.AssemblyInfo.cs
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\refint\Networking.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\Networking.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\Sample program and VS workloads\Demo2025\Networking\obj\Debug\net8.0\ref\Networking.dll

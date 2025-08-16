@@ -1,0 +1,11 @@
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.AssemblyInfoInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.AssemblyInfo.cs
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\bin\Debug\net8.0\Network.deps.json
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\bin\Debug\net8.0\Network.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\bin\Debug\net8.0\Network.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\refint\Network.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\Network.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OOPAssignment\Network\obj\Debug\net8.0\ref\Network.dll

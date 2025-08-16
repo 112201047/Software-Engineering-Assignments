@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CAEB913-6C2E-4C4F-A626-3674496DE77E}|OOPAssignment\\Controller.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\oopassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CAEB913-6C2E-4C4F-A626-3674496DE77E}|OOPAssignment\\Controller.csproj|solutionrelative:oopassignment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\network\\remoteprocedurecallcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|solutionrelative:network\\remoteprocedurecallcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\network\\tcpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|solutionrelative:network\\tcpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\network\\udpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|solutionrelative:network\\udpcommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\network\\protocolcommunicatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|solutionrelative:network\\protocolcommunicatorbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|c:\\users\\nikhi\\desktop\\sem 7\\software engineering\\projects\\oopassignment\\network\\icommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CB0D8B-EA39-4333-ADAF-9A7F1C0ED08E}|Network\\Network.csproj|solutionrelative:network\\icommunicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{bdada759-5db7-402f-96e3-402b17c8c5b4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RemoteProcedureCallCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\RemoteProcedureCallCommunicator.cs",
+              "RelativeDocumentMoniker": "Network\\RemoteProcedureCallCommunicator.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\RemoteProcedureCallCommunicator.cs",
+              "RelativeToolTip": "Network\\RemoteProcedureCallCommunicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T05:46:26.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\ICommunicator.cs",
+              "RelativeDocumentMoniker": "Network\\ICommunicator.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\ICommunicator.cs",
+              "RelativeToolTip": "Network\\ICommunicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T05:40:04.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProtocolCommunicatorBase.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\ProtocolCommunicatorBase.cs",
+              "RelativeDocumentMoniker": "Network\\ProtocolCommunicatorBase.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\ProtocolCommunicatorBase.cs",
+              "RelativeToolTip": "Network\\ProtocolCommunicatorBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T05:39:24.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UdpCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\UdpCommunicator.cs",
+              "RelativeDocumentMoniker": "Network\\UdpCommunicator.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\UdpCommunicator.cs",
+              "RelativeToolTip": "Network\\UdpCommunicator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T05:19:55.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TcpCommunicator.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\TcpCommunicator.cs",
+              "RelativeDocumentMoniker": "Network\\TcpCommunicator.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\Network\\TcpCommunicator.cs",
+              "RelativeToolTip": "Network\\TcpCommunicator.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:56:25.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\OOPAssignment\\Program.cs",
+              "RelativeDocumentMoniker": "OOPAssignment\\Program.cs",
+              "ToolTip": "C:\\Users\\nikhi\\Desktop\\Sem 7\\Software Engineering\\Projects\\OOPAssignment\\OOPAssignment\\Program.cs",
+              "RelativeToolTip": "OOPAssignment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T16:54:59.797Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

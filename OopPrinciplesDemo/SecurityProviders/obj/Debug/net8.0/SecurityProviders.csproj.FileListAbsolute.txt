@@ -1,0 +1,11 @@
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\bin\Debug\net8.0\SecurityProviders.deps.json
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\bin\Debug\net8.0\SecurityProviders.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\bin\Debug\net8.0\SecurityProviders.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.AssemblyInfoInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.AssemblyInfo.cs
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\refint\SecurityProviders.dll
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\SecurityProviders.pdb
+C:\Users\nikhi\Desktop\Sem 7\Software Engineering\OopPrinciplesDemo\SecurityProviders\obj\Debug\net8.0\ref\SecurityProviders.dll
