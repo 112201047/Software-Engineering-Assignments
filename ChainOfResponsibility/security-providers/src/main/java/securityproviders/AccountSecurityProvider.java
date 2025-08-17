@@ -1,31 +1,27 @@
 package securityproviders;
 
 public class AccountSecurityProvider implements ISecurityProvider {
-    private ISecurityProvider nextSecurityProvider;
+    private ISecurityProvider next;
 
     public AccountSecurityProvider() {
         // Constructor logic if needed
     }
 
-
     @Override
-    public void setNextSecurityProvider(ISecurityProvider securityProvider) {
-        this.nextSecurityProvider = securityProvider;
+    public ISecurityProvider setNext(ISecurityProvider nextSecurityProvider){
+        this.next = nextSecurityProvider;
+        return nextSecurityProvider;
     }
 
     @Override
     public boolean scan() {
-        // Simulate an account security scan
-        System.out.println("Initializing account security...");
-        ISecurityProvider onlineAccountSecurity = new OnlineAccountSecurityProvider();
-        setNextSecurityProvider(onlineAccountSecurity);
-        System.out.println("Using " + nextSecurityProvider.getName());
-        if (nextSecurityProvider.scan()) {
-            System.out.println(nextSecurityProvider.getName() + " scan completed successfully.\n");
-        } else {
-            System.out.println(nextSecurityProvider.getName() + " scan failed.\n");
+        // Simulate a device security scan
+        boolean result = true;  // Actual scanning method goes here
+        System.out.println("Scanning account security...");
+        if (next!=null){
+            result = result && next.scan();
         }
-        return true; // Assume the scan is successful
+        return result;
     }
 
     @Override

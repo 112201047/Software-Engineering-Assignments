@@ -1,18 +1,21 @@
 package securityproviders;
 
 public class OnlineAccountSecurityProvider extends AccountSecurityProvider implements ISecurityProvider {
+    private ISecurityProvider next;
+
     public OnlineAccountSecurityProvider() {
         // Constructor logic if needed
     }
 
     @Override
     public boolean scan() {
-        // Note: Online account security scans may also involve checking local account security.
-
-        // Simulate an online account security scan
+        // Simulate a device security scan
+        boolean result = true;  // Actual scanning method goes here
         System.out.println("Scanning online account security...");
-
-        return true;
+        if (next!=null){
+            result = result && next.scan();
+        }
+        return result;
     }
 
     @Override

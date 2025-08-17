@@ -1,18 +1,25 @@
 package controller;
 
-import java.util.ArrayList;
-import java.util.List;
 import securityproviders.*;
 
 public class Program {
     public static void main(String[] args) {
-        ISecurityProvider completeSecurity = new CompleteSecurity();
-        if (completeSecurity.scan()) {
-            System.out.println(completeSecurity.getName() + " scan completed successfully.\n");
-            System.out.println("COMPREHENSIVE SCAN COMPLETED. YOUR DEVICE IS SECURE FROM ALL THREATS.\n");
-        } else {
-            System.out.println(completeSecurity.getName() + " scan failed.\n");
-        }
+        // Create the various security provider instances.
+        ISecurityProvider deviceSecurity = new DeviceSecurity();
+        ISecurityProvider onlineAccountSecurity = new OnlineAccountSecurityProvider();
+        ISecurityProvider accountSecurity = new AccountSecurityProvider();
+        ISecurityProvider antivirusSecurity = new AntivirusSecurityProvider();
 
+        // Create chain of security providers.
+        deviceSecurity.setNext(antivirusSecurity).setNext(accountSecurity).setNext(onlineAccountSecurity);
+
+        // Invoke the chain by calling scan() only on the head.
+        boolean completeScan = deviceSecurity.scan();
+        if (completeScan){
+            System.out.println("\nCOMPREHENSIVE SCAN COMPLETED. YOUR DEVICE IS SECURE FROM ALL THREATS.");
+        }
+        else{
+            System.out.println("\nScanning failed. Your device is not secure from all threats.");
+        }
     }
 }

@@ -30,24 +30,10 @@ java -jar controller/target/controller-1.0-SNAPSHOT-shaded.jar
 
 ## Expected output (sample)
 ```
-Initializing complete security...
-Using Device Security Provider
-Initializing device security...
-Using Antivirus Security Provider
-Initializing antivirus security...
-Using Account Security Provider
-Initializing account security...
-Using Online Account Security Provider
+Scanning device security...
+Scanning for viruses...
+Scanning account security...
 Scanning online account security...
-Online Account Security Provider scan completed successfully.
-
-Account Security Provider scan completed successfully.
-
-Antivirus Security Provider scan completed successfully.
-
-Device Security Provider scan completed successfully.
-
-Complete Security Provider scan completed successfully.
 
 COMPREHENSIVE SCAN COMPLETED. YOUR DEVICE IS SECURE FROM ALL THREATS.
 ```

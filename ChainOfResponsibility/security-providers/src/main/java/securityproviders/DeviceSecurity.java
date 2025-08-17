@@ -1,30 +1,27 @@
 package securityproviders;
 
 public class DeviceSecurity implements ISecurityProvider {
-    private ISecurityProvider nextSecurityProvider;
+    private ISecurityProvider next;
 
     public DeviceSecurity() {
         // Constructor logic if needed
     }
 
     @Override
-    public void setNextSecurityProvider(ISecurityProvider securityProvider) {
-        this.nextSecurityProvider = securityProvider;
+    public ISecurityProvider setNext(ISecurityProvider nextSecurityProvider){
+        this.next = nextSecurityProvider;
+        return nextSecurityProvider;
     }
 
     @Override
     public boolean scan() {
         // Simulate a device security scan
-        System.out.println("Initializing device security...");
-        ISecurityProvider antivirusSecurity = new AntivirusSecurityProvider();
-        setNextSecurityProvider(antivirusSecurity);
-        System.out.println("Using " + nextSecurityProvider.getName());
-        if (nextSecurityProvider.scan()) {
-            System.out.println(nextSecurityProvider.getName() + " scan completed successfully.\n");
-        } else {
-            System.out.println(nextSecurityProvider.getName() + " scan failed.\n");
+        boolean result = true;  // Actual scanning method goes here
+        System.out.println("Scanning device security...");
+        if (next!=null){
+            result = result && next.scan();
         }
-        return true; // Assume the scan is successful
+        return result;
     }
 
     @Override

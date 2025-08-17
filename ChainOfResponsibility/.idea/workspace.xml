@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02d740a4-5a5e-4fdf-9c32-796653607629" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/controller/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/controller/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/classes/controller/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/classes/controller/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/original-controller-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/original-controller-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/AccountSecurityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/AccountSecurityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/AntivirusSecurityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/AntivirusSecurityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/CompleteSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/DeviceSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/DeviceSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/ISecurityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/ISecurityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/OnlineAccountSecurityProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/src/main/java/securityproviders/OnlineAccountSecurityProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/AccountSecurityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/AccountSecurityProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/AntivirusSecurityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/AntivirusSecurityProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/CompleteSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/DeviceSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/DeviceSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/ISecurityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/ISecurityProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/OnlineAccountSecurityProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/classes/securityproviders/OnlineAccountSecurityProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security-providers/target/security-providers-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security-providers/target/security-providers-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="31P6EwfIfV2VfKLj8RL97O4uyVb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.oop-principles-demo [-q,-pl,controller...].executor": "Run",
+    "Maven.oop-principles-demo [-q,clean,package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ChainOfResponsibility" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ChainOfResponsibility" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ChainOfResponsibility" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ChainOfResponsibility" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02d740a4-5a5e-4fdf-9c32-796653607629" name="Changes" comment="" />
+      <created>1755413257420</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755413257420</updated>
+    </task>
+    <servers />
+  </component>
+</project>
