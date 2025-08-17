@@ -1,9 +1,27 @@
-# Chain of Responsibility
+# Dependency Inversion Principle
 
-This project contains the implementation of the design pattern **Chain of Responsibility**.
-- Modules:
-  - `security-providers` (library with providers)
-  - `controller` (console app)
+This project contains the implementation of the **Dependency Inversion Principle (DIP)** using a notification service example.  
+The project demonstrates how high-level modules depend on abstractions (`INotificationProvider`) rather than concrete implementations (SMS, Email, Push).
+
+---
+
+## Modules
+- `notification-providers` (library with notification provider interface and implementations)
+- `controller` (console app to demonstrate usage)
+
+---
+
+## Structure
+
+- **INotificationProvider**: An interface defining the contract for notification providers.  
+- **Implementations**:
+  - `EmailNotificationProvider`
+  - `SMSNotificationProvider`
+  - `PushNotificationProvider`
+- **NotificationFactory**: Factory class to get the required provider at runtime.  
+- **Program**: The console application entry point that uses the factory and interface to send notifications without being tightly coupled to specific implementations.
+
+---
 
 ## Prerequisites
 - Java 17+
@@ -30,12 +48,8 @@ java -jar controller/target/controller-1.0-SNAPSHOT-shaded.jar
 
 ## Expected output (sample)
 ```
-Scanning device security...
-Scanning for viruses...
-Scanning account security...
-Scanning online account security...
-
-COMPREHENSIVE SCAN COMPLETED. YOUR DEVICE IS SECURE FROM ALL THREATS.
+Sending notification via SMS Notification Provider
+SMS Notification: Test message for notification service
 ```
 
 Tip: If Maven reports cached plugin resolution errors, retry with:
