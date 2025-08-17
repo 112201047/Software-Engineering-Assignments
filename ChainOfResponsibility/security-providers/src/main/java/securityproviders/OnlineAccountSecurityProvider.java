@@ -1,8 +1,6 @@
 package securityproviders;
 
 public class OnlineAccountSecurityProvider extends AccountSecurityProvider implements ISecurityProvider {
-    private ISecurityProvider next;
-
     public OnlineAccountSecurityProvider() {
         // Constructor logic if needed
     }
