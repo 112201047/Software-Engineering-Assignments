@@ -1,15 +1,13 @@
-# Dependency Inversion Principle
+# Dependency Inversion Principle - Notification Sercive
 
 This project contains the implementation of the **Dependency Inversion Principle (DIP)** using a notification service example.  
 The project demonstrates how high-level modules depend on abstractions (`INotificationProvider`) rather than concrete implementations (SMS, Email, Push).
 
----
 
 ## Modules
 - `notification-providers` (library with notification provider interface and implementations)
 - `controller` (console app to demonstrate usage)
 
----
 
 ## Structure
 
@@ -21,7 +19,6 @@ The project demonstrates how high-level modules depend on abstractions (`INotifi
 - **NotificationFactory**: Factory class to get the required provider at runtime.  
 - **Program**: The console application entry point that uses the factory and interface to send notifications without being tightly coupled to specific implementations.
 
----
 
 ## Prerequisites
 - Java 17+
