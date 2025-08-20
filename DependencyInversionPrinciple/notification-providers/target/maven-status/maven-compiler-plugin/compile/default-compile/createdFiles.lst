@@ -1,5 +1,0 @@
-notificationproviders\SMSNotificationProvider.class
-notificationproviders\PushNotificationProvider.class
-notificationproviders\INotificationProvider.class
-notificationproviders\EmailNotificationProvider.class
-notificationproviders\NotificationFactory.class
