@@ -1,0 +1,18 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Background="Azure">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Enter Message:" Margin="10" Width="498" FontSize="25"/>
+            <TextBox x:Name="MessageTextBox" Height="30" Width="502" VerticalContentAlignment="Center"/>
+            <Button Content="Write to Chat File" Margin="10" Click="ChatMessageButton_Click" Height="37" Width="310" Background="Aquamarine"/>
+            <Button Content="Write to Screen Share File" Margin="10" Click="ScreenShareMessageButton_Click" Height="38" Width="307" Background="CadetBlue" Foreground="White"/>
+            <ListBox x:Name="MessagesListBox" Height="194" Width="726"/>
+        </StackPanel>
+    </Grid>
+</Window>
