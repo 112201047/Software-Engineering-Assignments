@@ -2,8 +2,6 @@
 
 This project demonstrates the **Observer Design Pattern** by integrating a **WPF User Interface** with a **console backend**.  
 
----
-
 ## Overview
 - **WPF UI (Publisher):**
   - Provides buttons and text boxes for sending messages.
@@ -25,12 +23,11 @@ This shows how the **Observer Pattern** allows decoupled communication:
 - The **UI writes messages (state changes)**.  
 - The **Console (observers)** reacts automatically.
 
----
 
 ## Working
 1. **Set Project Output to Console:**
    - In Visual Studio:
-     - Right-click project → **Properties**.
+     - Right-click the project `GUI` → **Properties**.
      - Go to **Application** tab.
      - Set **Output type** → **Console Application**.
    - Run the project → both the **WPF window** and a **console window** open.
@@ -42,7 +39,6 @@ This shows how the **Observer Pattern** allows decoupled communication:
      - It is appended to the respective file.
      - The console displays the subscription logs and prints messages as they are processed.
 
----
 
 ## Usage
 1. Open the project in **Visual Studio**.
@@ -59,7 +55,6 @@ This shows how the **Observer Pattern** allows decoupled communication:
    - Observer subscription logs.
    - New messages as they are written.
 
----
 
 ## Observer Pattern in This Project
 
