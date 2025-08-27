@@ -4,7 +4,7 @@ This project demonstrates the **Observer Design Pattern** by integrating a **WPF
 
 ---
 
-## 📌 Overview
+## Overview
 - **WPF UI (Publisher):**
   - Provides buttons and text boxes for sending messages.
   - Messages are categorized into:
