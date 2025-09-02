@@ -9,7 +9,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Chat\Chat.csproj" />
     <ProjectReference Include="..\Networking\Networking.csproj" />
+    <ProjectReference Include="..\Screenshare\Screenshare.csproj" />
   </ItemGroup>
 
 </Project>

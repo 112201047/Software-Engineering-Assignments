@@ -8,6 +8,6 @@ namespace Networking
 {
     public interface IMessageListener
     {
-        void OnMessageReceived(string message);
+        void OnMessageReceived(string message, string id);
     }
 }

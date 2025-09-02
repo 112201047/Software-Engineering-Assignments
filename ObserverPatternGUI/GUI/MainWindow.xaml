@@ -10,9 +10,33 @@
         <StackPanel>
             <TextBlock Text="Enter Message:" Margin="10" Width="498" FontSize="25"/>
             <TextBox x:Name="MessageTextBox" Height="30" Width="502" VerticalContentAlignment="Center"/>
-            <Button Content="Write to Chat File" Margin="10" Click="ChatMessageButton_Click" Height="37" Width="310" Background="Aquamarine"/>
-            <Button Content="Write to Screen Share File" Margin="10" Click="ScreenShareMessageButton_Click" Height="38" Width="307" Background="CadetBlue" Foreground="White"/>
-            <ListBox x:Name="MessagesListBox" Height="194" Width="726"/>
+            <Grid Margin="0,10, 0, 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Send Chat Message" Grid.Column="0" Margin="10" Click="ChatMessageButton_Click" Height="37" Width="310" Background="Aquamarine"/>
+                <Button Content="Send Screenshare Message" Grid.Column="1" Margin="10" Click="ScreenShareMessageButton_Click" Height="38" Width="307" Background="CadetBlue" Foreground="White"/>
+            </Grid>
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0">
+                    <TextBlock Text="Sent Chat Messages" FontSize="15" Margin="40,0,0,0"/>
+                    <ListBox x:Name="ChatSent" Height="100" Width="310" Margin="0,0,0,10"/>
+                    <TextBlock Text="Received Chat Messages" FontSize="15" Margin="40,0,0,0"/>
+                    <ListBox x:Name="ChatReceived" Height="100" Width="310" Margin="0,0,0,10"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1">
+                    <TextBlock Text="Sent Screenshare Messages" FontSize="15" Margin="40,0,0,0"/>
+                    <ListBox x:Name="ScreenshareSent" Height="100" Width="310" Margin="0,0,0,10"/>
+                    <TextBlock Text="Received Screenshare Messages" FontSize="15" Margin="40,0,0,0"/>
+                    <ListBox x:Name="ScreenshareReceived" Height="100" Width="310" Margin="0,0,0,10"/>
+                </StackPanel>
+            </Grid>
         </StackPanel>
     </Grid>
 </Window>

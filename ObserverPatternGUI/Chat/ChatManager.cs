@@ -1,23 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Networking;
 
-namespace Networking
+
+namespace Chat
 {
+    public delegate void ChatMessageReceived(string message);
     public class ChatManager: IMessageListener
     {
         private readonly ICommunicator _communicator;
         public const string Id = "chat";
+        public event ChatMessageReceived? OnChatMessageReceived;
+
         public ChatManager(ICommunicator communicator)
-        { 
+        {
             _communicator = communicator;
             communicator.Subscribe(Id, this);
         }
-        public void OnMessageReceived(string message)
+        public void OnMessageReceived(string message, string id)
         {
-            Console.WriteLine($"\nChatManager received:\n{message}");
+            OnChatMessageReceived?.Invoke(message);
         }
     }
 }
