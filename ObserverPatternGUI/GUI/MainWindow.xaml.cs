@@ -19,10 +19,11 @@ namespace GUI
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, IMessageListener
+    public partial class MainWindow : Window
     {
         private readonly Communicator _communicator;
-        private readonly IMessageListener _chatListener, _screenshareListener;
+        private readonly ChatManager _chatManager;
+        private readonly ScreenshareManager _screenshareManager;
         private static new Dispatcher Dispatcher => Application.Current?.Dispatcher ?? Dispatcher.CurrentDispatcher;
 
         public MainWindow()
@@ -30,21 +31,21 @@ namespace GUI
             InitializeComponent();
 
             _communicator = new Communicator();
-            _chatListener = new ChatManager();
-            _screenshareListener = new ScreenshareManager();
-            _communicator.Subscribe(ChatManager.Id, this);
-            _communicator.Subscribe(ScreenshareManager.Id, this);
+
+            _chatManager = new ChatManager();
+            _screenshareManager = new ScreenshareManager();
+
+            _chatManager.OnChatMessageReceived += message =>
+                Dispatcher.Invoke(() => ChatReceived.Items.Add(message));
+
+            _screenshareManager.OnScreenshareMessageReceived += message =>
+                Dispatcher.Invoke(() => ScreenshareReceived.Items.Add(message));
+
+            _communicator.Subscribe(ChatManager.Id, _chatManager);
+            _communicator.Subscribe(ScreenshareManager.Id, _screenshareManager);
 
         }
 
-        public void OnMessageReceived(string message, string id)
-        {
-            Dispatcher.Invoke(() =>
-            {
-                if (id == ChatManager.Id) ChatReceived.Items.Add(message);
-                else if (id == ScreenshareManager.Id) ScreenshareReceived.Items.Add(message);
-            });
-        }
         private void ChatMessageButton_Click(object sender, RoutedEventArgs e)
         {
             _communicator.SendMessage(MessageTextBox.Text, "chat");

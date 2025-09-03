@@ -4,7 +4,6 @@ namespace Networking
     public class Communicator : ICommunicator
     {
         FileSystemWatcher _watcher;
-        IMessageListener _listener;
         List<KeyValuePair<string, IMessageListener>> _list;
         private string _path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
@@ -29,8 +28,8 @@ namespace Networking
                 {
                     var id = line.Split(": ")[0];
                     string message = line.Split(": ")[1];
-                    _listener = _list.Find(x => x.Key == id).Value;
-                    _listener?.OnMessageReceived(message, id);
+                    var listener = _list.Find(x => x.Key == id).Value;
+                    listener?.OnMessageReceived(message, id);
                 }
             }
         }
