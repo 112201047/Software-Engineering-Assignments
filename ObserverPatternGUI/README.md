@@ -1,78 +1,98 @@
-# Observer Pattern with WPF UI and Console Output
+# Observer Pattern with WPF Messaging App 
 
-This project demonstrates the **Observer Design Pattern** by integrating a **WPF User Interface** with a **console backend**.  
+This project demonstrates the **Observer Design Pattern** using a **WPF User Interface** that exchanges messages via a `Communicator` backend.  
+Messages are sent and received through text files (`in.txt` and `out.txt`) using the **FileSystemWatcher** mechanism.
 
 ## Overview
-- **WPF UI (Publisher):**
-  - Provides buttons and text boxes for sending messages.
-  - Messages are categorized into:
-    - **Chat Messages**
-    - **Screen Share Messages**
-  - Messages are written to text files:
-    - `chat_message.txt`
-    - `screenShare_message.txt`
 
-- **Console Window (Observer):**
-  - Runs alongside the UI (once output type is set to Console Application).
-  - Displays:
-    - Debug/test messages.
-    - Logs when observers are subscribed.
-    - The messages being read from the files.
+- **WPF UI**
+  - Provides text input and buttons for sending:
+    - **Chat messages**
+    - **Screenshare messages**
+  - Displays both **sent** and **received** messages in the UI.
 
-This shows how the **Observer Pattern** allows decoupled communication:  
-- The **UI writes messages (state changes)**.  
-- The **Console (observers)** reacts automatically.
+- **Communicator (Publisher)**
+  - Watches `in.txt` for new incoming messages.
+  - Writes outgoing messages to `out.txt`.
+  - Notifies all subscribed managers when new messages arrive.
+
+- **Observers (Subscribers)**
+  - `ChatManager` → handles chat messages.
+  - `ScreenshareManager` → handles screenshare messages.
+  - Both implement the `IMessageListener` interface.
+
+## How It Works
+
+1. **Startup**
+   - `MainWindow` creates a single `Communicator`.
+   - `ChatManager` and `ScreenshareManager` subscribe to it.
+   - Event handlers update the UI whenever messages are received.
+
+2. **Sending a Message**
+   - User types into the textbox and clicks:
+     - **Send Chat Message Button** → sends via `"chat"`.
+     - **Send Screenshare Message Button** → sends via `"screenshare"`.
+   - `Communicator.SendMessage` appends the message into `out.txt`.
+
+3. **Receiving a Message**
+   - `Communicator` monitors `in.txt` using a `FileSystemWatcher`.
+   - Whenever `in.txt` changes, all new lines are read.
+   - Each line is in the format:
+     ```
+     id: message
+     ```
+     Example:
+     ```
+     chat: Hello World
+     screenshare: Sharing my screen now
+     ```
+   - Based on the `id`, the correct manager (`ChatManager` or `ScreenshareManager`) is notified.
+   - The message is displayed in the WPF UI under **received messages**.
 
 
-## Working
-1. **Set Project Output to Console:**
-   - In Visual Studio:
-     - Right-click the project `GUI` → **Properties**.
-     - Go to **Application** tab.
-     - Set **Output type** → **Console Application**.
-   - Run the project → both the **WPF window** and a **console window** open.
+## Usage Instructions
 
-2. **Flow of Execution:**
-   - `Communicator` sends initial test messages.
-   - `ChatManager` and `ScreenshareManager` subscribe as observers.
-   - When you send a message in the UI:
-     - It is appended to the respective file.
-     - The console displays the subscription logs and prints messages as they are processed.
+1. **Run the Project**
+   - Build and run the WPF project (`GUI`).
+   - The main window will open with sections for chat and screenshare.
 
+2. **Send Messages from UI**
+   - Type text in the message box.
+   - Click the **Send Chat Message** or **Send Screenshare Message** button.
+   - Sent messages appear in:
+     - `ChatSent` / `ScreenshareSent` lists in the UI.
+     - Appended to `out.txt` on your Desktop.
 
-## Usage
-1. Open the project in **Visual Studio**.
-2. Change **Output type** → `Console Application`.
-3. Run the project. You’ll see:
-   - A **WPF window** for sending messages.
-   - A **console window** showing debug and observer logs.
-4. In the UI:
-   - Enter a message in the text box.
-   - Click:
-     - **Chat Message Button** → writes to `chat_message.txt`.
-     - **Screen Share Message Button** → writes to `screenShare_message.txt`.
-5. Console window will show:
-   - Observer subscription logs.
-   - New messages as they are written.
+3. **Provide Input (to simulate external sender)**
+   - Open `in.txt` on your Desktop (create it if it doesn’t exist).
+   - Add a new line in the format:
+     ```
+     chat: Hi from file
+     screenshare: File triggered update
+     ```
+   - Save the file → The WPF UI immediately updates under **Received Chat Messages** or **Received Screenshare Messages**.
+
+4. **View Output**
+   - **Sent messages** → written to `out.txt`.
+   - **Received messages** → shown in the UI (and come from `in.txt`).
 
 
 ## Observer Pattern in This Project
 
-The project follows the **Observer Pattern**:
+- **Publisher (Subject)**
+  - `Communicator`
+  - Keeps a list of `(id, listener)` pairs.
+  - Writes outgoing messages to `out.txt`.
+  - Watches `in.txt` for incoming messages and notifies subscribers.
 
-- **Subject (Publisher):**  
-  - `Communicator`  
-  - Maintains a list of subscribers (`Subscribe`) and broadcasts messages using `SendMessage`.
+- **Subscribers (Observers)**
+  - `ChatManager` → subscribes with `id = "chat"`.
+  - `ScreenshareManager` → subscribes with `id = "screenshare"`.
+  - Both react to incoming messages via their `OnMessageReceived` implementation.
 
-- **Observers (Subscribers):**  
-  - `ChatManager`  
-  - `ScreenshareManager`  
-  - `Listener` (test listener)  
-  - Each implements the `IMessageListener` interface and defines `OnMessageReceived(string message)`.
+## Files Used
 
-- **Sample Notification Flow:**  
-  1. `Communicator.SendMessage("Hello", "chat")` → triggers a state change.  
-  2. `Communicator` notifies all listeners subscribed to `"chat"`.  
-  3. Each observer’s `OnMessageReceived` method is called.  
-  4. Observers react individually (e.g., printing to console).
+- **`in.txt`** → Input file (simulate external messages).  
+- **`out.txt`** → Output file (stores sent messages).  
 
+Both files are located on the **Desktop** by default.
