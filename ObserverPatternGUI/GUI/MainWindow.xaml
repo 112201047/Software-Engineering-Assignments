@@ -15,8 +15,8 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Button Content="Send Chat Message" Grid.Column="0" Margin="10" Click="ChatMessageButton_Click" Height="37" Width="310" Background="Aquamarine"/>
-                <Button Content="Send Screenshare Message" Grid.Column="1" Margin="10" Click="ScreenShareMessageButton_Click" Height="38" Width="307" Background="CadetBlue" Foreground="White"/>
+                <Button Content="Send Chat Message" FontSize="20" Grid.Column="0" Margin="10" Click="ChatMessageButton_Click" Height="37" Width="310" Background="Aquamarine"/>
+                <Button Content="Send Screenshare Message" FontSize="20" Grid.Column="1" Margin="10" Click="ScreenShareMessageButton_Click" Height="38" Width="307" Background="CadetBlue" Foreground="White"/>
             </Grid>
             <Grid Margin="10">
                 <Grid.ColumnDefinitions>

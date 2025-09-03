@@ -5,14 +5,12 @@ namespace Screenshare
     public delegate void ScreenshareMessageReceived(string message);
     public class ScreenshareManager : IMessageListener
     {
-        private readonly ICommunicator _communicator;
         public const string Id = "screenshare";
         public event ScreenshareMessageReceived? OnScreenshareMessageReceived;
 
-        public ScreenshareManager(ICommunicator communicator)
+        public ScreenshareManager()
         {
-            _communicator = communicator;
-            communicator.Subscribe(Id, this);
+            // Constructor logic if needed
         }
 
         public void OnMessageReceived(string message, string id)

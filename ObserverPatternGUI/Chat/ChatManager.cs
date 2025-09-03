@@ -6,14 +6,12 @@ namespace Chat
     public delegate void ChatMessageReceived(string message);
     public class ChatManager: IMessageListener
     {
-        private readonly ICommunicator _communicator;
         public const string Id = "chat";
         public event ChatMessageReceived? OnChatMessageReceived;
 
-        public ChatManager(ICommunicator communicator)
+        public ChatManager()
         {
-            _communicator = communicator;
-            communicator.Subscribe(Id, this);
+            // Constructor logic if needed
         }
         public void OnMessageReceived(string message, string id)
         {
