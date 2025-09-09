@@ -17,3 +17,6 @@ This repository incorporates and builds upon work from the following sources:
 
 - [ChainOfResponsibility](./ChainOfResponsibility)   
   Modifies the java code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to implement the design pattern **Chain of Responsibility**
+
+- [WpfApp-Sample](./WpfApp-Sample)   
+  Extends the C# code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to display modified .txt/.png file names and show PNG images in an Image control.
