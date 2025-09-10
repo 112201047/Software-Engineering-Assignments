@@ -23,9 +23,9 @@ public class Communicator
 
     private void OnChanged(object sender, FileSystemEventArgs e)
     {
-        if (_handler != null)
+        if (_handler != null && e.Name!= null)
         {
-            if (e.FullPath.EndsWith(".txt") || e.FullPath.EndsWith(".png"))
+            if (e.Name.EndsWith(".txt") || e.Name.EndsWith(".png"))
             {
                 _handler.OnFileChanged(e.FullPath);
             }
