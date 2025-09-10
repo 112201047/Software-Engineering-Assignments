@@ -25,7 +25,8 @@ public class Communicator
     {
         if (_handler != null && e.Name!= null)
         {
-            string ext = Path.GetExtension(e.Name).ToLower();
+            FileInfo fi = new FileInfo(e.FullPath);
+            string ext = fi.Extension.ToLower();
             if (ext == ".txt" || ext == ".png")
             {
                 _handler.OnFileChanged(e.FullPath);
