@@ -25,7 +25,8 @@ public class Communicator
     {
         if (_handler != null && e.Name!= null)
         {
-            if (e.Name.EndsWith(".txt") || e.Name.EndsWith(".png"))
+            string ext = Path.GetExtension(e.Name).ToLower();
+            if (ext == ".txt" || ext == ".png")
             {
                 _handler.OnFileChanged(e.FullPath);
             }
