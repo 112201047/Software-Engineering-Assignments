@@ -20,3 +20,6 @@ This repository incorporates and builds upon work from the following sources:
 
 - [WpfApp-Sample](./WpfApp-Sample)   
   Extends the C# code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to display modified .txt/.png file names and show PNG images in an Image control.
+
+- [WpfApp-MVVM](./WpfApp-MVVM)   
+  Extends the C# code provided by [@ramaswamy-krishnan-chittur](https://github.com/chittur) to display modified .txt/.png file names and show PNG images in an Image control using MVVM architecture.
