@@ -1,0 +1,1 @@
+Please open the WpfApp1.sln in the WpfApp1 directory.
